@@ -1,3 +1,73 @@
-body {
-background-color: black;
+h1::first-letter{
+    color: Red;
+    font-size: 60px;
+    margin: 0;
+}
+
+.card{
+    width: 500px;
+    height: 800px;
+    background-color: Gold;
+    border-radius: 30px;
+}
+
+.photo{
+    height: auto;
+    padding: 10px;
+
+}
+
+.info{
+    height: 90%;
+    margin: 5px;
+}
+
+img {
+    position: relative;
+    left: 37px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+img:hover {
+    width: 600px;
+    height: 600px;
+    transition: 2s;
+}
+
+
+.card1{
+    width: 500px;
+    height: 800px;
+    background-color: Gold;
+    border-radius: 30px;
+}
+
+.photo1{
+    height: auto;
+    padding: 10px;
+
+}
+
+.info1{
+    height: 90%;
+    margin: 5px;
+}
+
+.card2{
+    width: 500px;
+    height: 800px;
+    background-color: Gold;
+    border-radius: 30px;
+}
+
+.photo2{
+    height: auto;
+    padding: 10px;
+
+}
+
+.info2{
+    height: 90%;
+    margin: 5px;
 }
